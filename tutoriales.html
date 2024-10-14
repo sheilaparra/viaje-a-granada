@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutoriales - Viaje a Granada</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilos específicos para la sección de vídeos */
+        .video-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .video-container iframe {
+            width: 100%;
+            height: 300px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .video-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="sobre-mi.html">Sobre mí</a></li>
+                <li><a href="fotos.html">Fotos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Tutoriales</h1>
+        <p>Encuentra aquí una serie de tutoriales para planificar tu viaje a Granada.</p>
+
+        <section class="video-container">
+            <!-- Primer video -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/KerVlai_a08" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Segundo video -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/UnytkPt-vu8" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <!-- Tercer video -->
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/DpRcZuBxU0M" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mi Viaje a Granada</p>
+    </footer>
+</body>
+</html>
